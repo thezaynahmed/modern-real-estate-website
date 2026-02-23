@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Curated Estates | Real Estate and Mortgage Advisory
+
+A digital platform for high-end property acquisition, private architectural estates, and structured mortgage advisory across the Greater Toronto Area (GTA).
+
+## Core Practice
+
+Curated Estates combines luxury property acquisition with tailored mortgage strategy. Built for clients who require discretion, data-driven valuation, and private transaction support:
+
+- Private Acquisition Network: Direct coordination with verified property owners, family offices, and off-market sellers.
+- Integrated Mortgage Advisory: Tailored financing and structured equity solutions aligned with estate acquisition.
+- Market Analysis Journal: In-depth reporting on GTA neighborhood pricing, architectural trends, and regulatory updates.
+- Focused Portfolios: Dedicated hubs for penthouses, private estates, and waterfront residences.
+- Cinematic Presentation: GSAP-accelerated transitions, Lenis smooth scrolling, and architectural photography.
+
+## Technology Stack
+
+- Framework: [Next.js 16](https://nextjs.org/) (App Router)
+- Language: TypeScript 5
+- Styling: Tailwind CSS
+- Animation: GSAP 3 (ScrollTrigger) and Framer Motion
+- Typography: Playfair Display and Inter
+- Icons: Lucide React
+- Form Handling: React Hook Form and Zod
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 18.17 or higher
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/thezaynahmed/modern-real-estate-website.git
+   cd modern-real-estate-website
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the local development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Sitemap
+
+The application includes the following routes:
+
+- Home (`/`): Hero showcase, curated property collection, and client dialogues.
+- About (`/about`): Advisory history, philosophy, and performance milestones.
+- Journal (`/blog`): Market intelligence and architectural commentary.
+- Buyers (`/buyers`): Acquisition portal with property filtering.
+- Sellers (`/sellers`): Property evaluation and private marketing intake.
+- Contact (`/contact`): Consultation booking and direct advisory communication.
+- Penthouses (`/penthouses`): Curated urban high-altitude residences.
+- Private Estates (`/estates`): Multi-acre architectural properties in GTA submarkets.
+- Waterfront (`/waterfront`): Lake Ontario and Lakeview shoreline properties.
+- Area Guides (`/guides/[area]`): Focused guides for Mississauga, Oakville, Toronto, and Muskoka.
+- Market FAQ (`/faq`): Transaction protocols, closing costs, and off-market procedures.
+
+## Project Structure
+
+```txt
+app/               Next.js App Router pages and dynamic routes
+components/        UI components (home, about, shared, forms)
+lib/               Centralized datasets and helper utilities
+public/            High-resolution photography and static brand assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Copyright 2026 Curated Estates Real Estate and Mortgage Advisory. All rights reserved.
