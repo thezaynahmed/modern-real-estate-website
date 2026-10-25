@@ -16,8 +16,17 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://curatedestates.zainahmed.net"),
   title: "Curated Estates | Luxury Real Estate & Mortgage Advisory in the GTA",
   description: "Curated Estates represents distinguished architectural properties, waterfront residences, and penthouses across the Greater Toronto Area with integrated mortgage advisory.",
+  openGraph: {
+    title: "Curated Estates | Real Estate & Mortgage Advisory",
+    description: "Curated Estates represents distinguished architectural properties and penthouses across the GTA.",
+    url: "https://curatedestates.zainahmed.net",
+    siteName: "Curated Estates",
+    locale: "en_CA",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -6,7 +6,7 @@ const ESTATES: Property[] = [
     {
         id: "est-1",
         title: "The Glass House Estate",
-        location: "Lorne Park, Mississauga",
+        location: "The Bridle Path, Toronto",
         price: "$5,250,000",
         image: "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 5,
@@ -17,7 +17,7 @@ const ESTATES: Property[] = [
     {
         id: "est-2",
         title: "The Georgian Manor",
-        location: "Mineola West, Mississauga",
+        location: "Rosedale, Toronto",
         price: "$7,900,000",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 7,
@@ -28,7 +28,7 @@ const ESTATES: Property[] = [
     {
         id: "est-3",
         title: "Ravine Edge Compound",
-        location: "Erindale, Mississauga",
+        location: "Forest Hill, Toronto",
         price: "$6,100,000",
         image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 6,
@@ -39,7 +39,7 @@ const ESTATES: Property[] = [
     {
         id: "est-4",
         title: "Modern Minimalist Villa",
-        location: "Mineola East, Mississauga",
+        location: "Hoggs Hollow, Toronto",
         price: "$4,150,000",
         image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 4,

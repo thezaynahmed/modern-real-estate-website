@@ -62,7 +62,7 @@ export function AboutHero() {
                         </h1>
 
                         <p className="about-hero-reveal text-muted-foreground text-lg leading-relaxed max-w-lg">
-                            Where financial precision meets an intimate understanding of luxury markets. Curated Estates was built for clients who demand more than a transaction — they demand a strategist who understands the intersection of capital and estate.
+                            Curated Estates pairs luxury residential acquisition with structured mortgage advisory across Downtown Toronto and the GTA. Built as a portfolio demonstration platform by Zain Ahmed, showcasing modern web architecture, interactive GSAP animations, and editorial real-estate design.
                         </p>
 
                         <div className="about-hero-reveal flex items-center gap-8 pt-4">

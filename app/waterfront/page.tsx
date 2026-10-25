@@ -6,7 +6,7 @@ const WATERFRONT: Property[] = [
     {
         id: "wf-1",
         title: "Lakeshore Estate",
-        location: "Port Credit, Mississauga",
+        location: "Lake Ontario Shoreline, Toronto",
         price: "$7,100,000",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 6,
@@ -17,7 +17,7 @@ const WATERFRONT: Property[] = [
     {
         id: "wf-2",
         title: "The Harbour Residence",
-        location: "Lakeview, Mississauga",
+        location: "Harbourfront, Downtown Toronto",
         price: "$4,800,000",
         image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 5,
@@ -28,7 +28,7 @@ const WATERFRONT: Property[] = [
     {
         id: "wf-3",
         title: "Sunset Cove Villa",
-        location: "Clarkson, Mississauga",
+        location: "Scarborough Bluffs, Toronto",
         price: "$5,500,000",
         image: "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 5,
@@ -39,7 +39,7 @@ const WATERFRONT: Property[] = [
     {
         id: "wf-4",
         title: "Marina Point Penthouse",
-        location: "Port Credit Marina",
+        location: "Queens Quay, Downtown Toronto",
         price: "$3,200,000",
         image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 3,
@@ -59,7 +59,7 @@ export default function WaterfrontPage() {
                         Waterfront
                     </h1>
                     <p className="text-lg md:text-xl text-white/60 max-w-2xl">
-                        Wake up to unobstructed lake views. Our waterfront portfolio offers the most coveted shoreline properties and marina residences in Mississauga.
+                        Unobstructed lake views and private moorings across Lake Ontario and the Toronto shoreline.
                     </p>
                 </Container>
             </SectionWrapper>

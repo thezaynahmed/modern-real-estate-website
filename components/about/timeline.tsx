@@ -28,13 +28,13 @@ const MILESTONES = [
         year: "2024",
         title: "Curated Estates Established",
         description:
-            "Officially launched the Curated Estates advisory with a singular focus: providing discrete property sourcing and custom-tailored lending solutions across Mississauga and the Greater Toronto Area.",
+            "Established the Curated Estates advisory model focused on discrete property sourcing and tailored mortgage architecture across Downtown Toronto and the Greater Toronto Area.",
     },
     {
         year: "2026",
-        title: "The Full-Stack Authority",
+        title: "Digital Portfolio Release",
         description:
-            "Established as the premier authority for integrated real estate and mortgage consulting in the GTA. Managing a $120M+ portfolio where every transaction is optimized for both lifestyle and long-term financial performance.",
+            "Engineered the modern web platform as a demonstration of high-density real estate design, GSAP ScrollTrigger performance, and full Next.js App Router capabilities.",
     },
 ];
 

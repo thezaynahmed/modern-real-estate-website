@@ -7,28 +7,28 @@ import { cn } from "@/lib/utils";
 const PROPERTIES = [
     {
         title: "The Glass House",
-        location: "Lorne Park, Mississauga",
+        location: "The Bridle Path, Toronto",
         price: "$5,250,000",
         image: "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         size: "large" // spans 2 columns
     },
     {
         title: "Skyline Penthouse",
-        location: "City Centre",
+        location: "Downtown Toronto",
         price: "$2,850,000",
         image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         size: "normal"
     },
     {
         title: "Lakeshore Estate",
-        location: "Port Credit",
+        location: "Harbourfront, Toronto",
         price: "$7,100,000",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         size: "normal"
     },
     {
         title: "Modern Minimalist",
-        location: "Mineola",
+        location: "Yorkville, Toronto",
         price: "$4,150,000",
         image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         size: "large"
@@ -37,7 +37,7 @@ const PROPERTIES = [
 
 export function FeaturedListings() {
     return (
-        <SectionWrapper className="pt-24 md:pt-44 bg-background">
+        <SectionWrapper className="pt-16 md:pt-40 bg-background">
             <Container>
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
                     <div className="space-y-4 max-w-2xl">

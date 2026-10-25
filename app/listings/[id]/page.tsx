@@ -10,9 +10,9 @@ async function getProperty(id: string) {
     return {
         id,
         title: "The Glass House Estate",
-        location: "Lorne Park, Mississauga",
+        location: "The Bridle Path, Toronto",
         price: "$5,250,000",
-        description: "An architectural masterpiece nestled within the prestigious Lorne Park community. This ultra-modern estate boasts sprawling glass facades seamlessly blending indoor and outdoor living. The chef's kitchen features imported Italian marble, while the primary suite offers a private terrace overlooking the mature tree canopy.",
+        description: "An architectural estate in Toronto's Bridle Path enclave. Floor-to-ceiling glass facades integrate living spaces with private landscaped grounds. The kitchen features marble finishes and concealed appliances, while the primary suite includes a private balcony overlooking mature woodland.",
         beds: 5,
         baths: 6,
         sqft: "8,500",

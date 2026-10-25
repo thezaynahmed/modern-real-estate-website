@@ -75,10 +75,7 @@ export function StoryGrid() {
                             <div className="space-y-4">
                                 <h3 className="font-serif text-2xl text-white">The Financial Edge</h3>
                                 <p className="text-white/60 leading-relaxed">
-                                    A background in complex financial architecture isn&apos;t typical in real estate — it&apos;s our
-                                    unfair advantage. We don&apos;t just find homes; we engineer wealth. By combining deep
-                                    mortgage expertise with institutional-grade strategy, we ensure every acquisition
-                                    optimizes your liquidity and long-term equity.
+                                    Structured financing and mortgage advisory are integrated directly into our acquisition workflow. By aligning lending terms with property valuation early, transactions protect liquidity and streamline closing timelines.
                                 </p>
                             </div>
                         </CardContent>
@@ -91,12 +88,9 @@ export function StoryGrid() {
                                 <MapPin className="w-7 h-7 text-[#C5A059]" />
                             </div>
                             <div className="space-y-4">
-                                <h3 className="font-serif text-2xl text-foreground">Local Roots, Global Vision</h3>
+                                <h3 className="font-serif text-2xl text-foreground">Local Intelligence, Global Reach</h3>
                                 <p className="text-muted-foreground leading-relaxed">
-                                    Mississauga isn&apos;t just where we work — it&apos;s home. From the ravine trails
-                                    of Lorne Park to the dynamic skyline of City Centre, we possess an intimate,
-                                    block-by-block knowledge of every luxury pocket in the Greater Toronto Area. This
-                                    local intelligence is paired with a global network of affluent buyers.
+                                    Our advisory focuses on prime submarkets across Downtown Toronto, the lakefront, and surrounding estate enclaves. We track micro-market inventory, off-market private sales, and zoning shifts to guide buyers and sellers with verifiable local data.
                                 </p>
                             </div>
                         </CardContent>

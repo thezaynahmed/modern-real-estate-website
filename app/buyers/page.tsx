@@ -9,7 +9,7 @@ const ALL_LISTINGS: Property[] = [
     {
         id: "1",
         title: "The Glass House Estate",
-        location: "Lorne Park, Mississauga",
+        location: "The Bridle Path, Toronto",
         price: "$5,250,000",
         image: "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 5,
@@ -20,7 +20,7 @@ const ALL_LISTINGS: Property[] = [
     {
         id: "2",
         title: "Skyline Penthouse",
-        location: "City Centre",
+        location: "Financial District, Downtown Toronto",
         price: "$2,850,000",
         image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 3,

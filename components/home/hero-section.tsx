@@ -22,8 +22,8 @@ export function HeroSection() {
                 </div>
             </Container>
 
-            {/* Floating Search Bar */}
-            <div className="absolute left-0 right-0 -bottom-8 md:bottom-0 z-40 px-4 md:px-6 xl:px-0 max-w-5xl mx-auto flex justify-center w-full md:translate-y-1/2">
+            {/* Search Bar - Natural flow on mobile, floating bridge on desktop */}
+            <div className="relative mt-8 md:mt-0 md:absolute md:left-0 md:right-0 md:bottom-0 z-40 px-4 md:px-6 xl:px-0 max-w-5xl mx-auto flex justify-center w-full md:translate-y-1/2">
                 <div className="w-full">
                     <SearchBar />
                 </div>

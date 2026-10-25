@@ -29,8 +29,8 @@ export default function ContactPage() {
                                     <div>
                                         <h3 className="font-serif text-2xl mb-2">Corporate Office</h3>
                                         <p className="text-muted-foreground leading-relaxed">
-                                            100 City Centre Dr<br />
-                                            Mississauga, ON L5B 2C9<br />
+                                            Financial District<br />
+                                            Downtown Toronto, ON M5J 2T3<br />
                                             Canada
                                         </p>
                                     </div>
@@ -43,8 +43,8 @@ export default function ContactPage() {
                                     <div>
                                         <h3 className="font-serif text-2xl mb-2">Private Lines</h3>
                                         <p className="text-muted-foreground leading-relaxed">
-                                            Domestic: +1 (800) 123-4567<br />
-                                            International: +1 (416) 123-4567
+                                            Domestic: +1 (800) 555-0199<br />
+                                            Direct: +1 (416) 555-0190
                                         </p>
                                     </div>
                                 </div>
@@ -54,10 +54,10 @@ export default function ContactPage() {
                                         <Mail className="w-8 h-8 text-primary group-hover:text-background transition-colors" />
                                     </div>
                                     <div>
-                                        <h3 className="font-serif text-2xl mb-2">Digital Correspondance</h3>
+                                        <h3 className="font-serif text-2xl mb-2">Digital Correspondence</h3>
                                         <p className="text-muted-foreground leading-relaxed">
-                                            General: concierge@curatedestates.ca<br />
-                                            Press: media@curatedestates.ca
+                                            General: concierge@curatedestates.zainahmed.net<br />
+                                            Press: media@curatedestates.zainahmed.net
                                         </p>
                                     </div>
                                 </div>
@@ -69,8 +69,8 @@ export default function ContactPage() {
                                     <div>
                                         <h3 className="font-serif text-2xl mb-2">Consultation Hours</h3>
                                         <p className="text-muted-foreground leading-relaxed">
-                                            Available Mon-Sat, 9AM to 7PM EST.<br />
-                                            Available anytime for retained clients via direct line.
+                                            Available Mon-Fri, 9AM to 6PM EST.<br />
+                                            Private consultations scheduled by appointment.
                                         </p>
                                     </div>
                                 </div>

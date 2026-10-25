@@ -82,36 +82,44 @@ export function Footer() {
 
                     {/* Contact Info */}
                     <div className="footer-reveal flex flex-col space-y-4 lg:ml-auto">
-                        <h4 className="font-serif text-xl font-medium text-white">Contact Us</h4>
+                        <h4 className="font-serif text-xl font-medium text-white">Contact</h4>
                         <ul className="space-y-4 text-sm text-white/60">
                             <li>
-                                <a href="tel:+18001234567" className="hover:text-primary transition-colors flex items-center gap-3">
+                                <a href="tel:+14165550190" className="hover:text-primary transition-colors flex items-center gap-3">
                                     <span className="text-primary/70 font-medium">T</span>
-                                    <span>+1 (800) 123-4567</span>
+                                    <span>+1 (416) 555-0190</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:concierge@curatedestates.ca" className="hover:text-primary transition-colors flex items-center gap-3">
+                                <a href="mailto:concierge@curatedestates.zainahmed.net" className="hover:text-primary transition-colors flex items-center gap-3">
                                     <span className="text-primary/70 font-medium tracking-widest">E</span>
-                                    <span>concierge@curatedestates.ca</span>
+                                    <span>concierge@curatedestates.zainahmed.net</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://maps.google.com/?q=100+City+Centre+Dr,+Mississauga,+ON+L5B+2C9" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-start gap-3">
+                                <div className="flex items-start gap-3 text-white/60">
                                     <span className="text-primary/70 font-medium mt-1">A</span>
-                                    <span className="leading-relaxed">100 City Centre Dr<br />Mississauga, ON L5B 2C9</span>
-                                </a>
+                                    <span className="leading-relaxed">Financial District<br />Downtown Toronto, ON M5J 2T3</span>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
 
+                {/* Demo Disclaimer Box */}
+                <div className="footer-reveal border-t border-white/10 pt-8 pb-4 text-xs text-white/50 space-y-2">
+                    <p className="font-mono text-[11px] uppercase tracking-wider text-primary/80">Portfolio Project Disclaimer</p>
+                    <p className="leading-relaxed max-w-4xl text-white/40">
+                        Curated Estates is an independent web application and portfolio project engineered by <a href="https://zainahmed.net" target="_blank" rel="noreferrer" className="text-white/60 hover:text-primary underline underline-offset-2">Zain Ahmed</a>. Designed to showcase modern Next.js 16 App Router architecture, typed WGSL/CSS styling, Lenis smooth scrolling, and custom GSAP motion design. All property listings, addresses, financial figures, and client testimonials are fictional concept representations created for demonstration purposes.
+                    </p>
+                </div>
+
                 {/* Bottom Bar */}
-                <div className="footer-reveal flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 text-xs text-white/40">
-                    <p>&copy; {new Date().getFullYear()} Curated Estates Real Estate & Mortgage. All rights reserved.</p>
+                <div className="footer-reveal flex flex-col md:flex-row justify-between items-center pt-6 border-t border-white/5 text-xs text-white/40">
+                    <p>&copy; {new Date().getFullYear()} Curated Estates &bull; Concept & Engineering by Zain Ahmed.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
-                        <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-                        <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+                        <span className="text-white/40">Demo Platform</span>
+                        <a href="https://github.com/thezaynahmed/modern-real-estate-website" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub Repository</a>
                     </div>
                 </div>
             </Container>

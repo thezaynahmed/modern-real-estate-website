@@ -23,7 +23,7 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
             "The luxury real estate landscape in 2026 has undergone a seismic philosophical shift. The era of ornate maximalism — marble-clad foyers, gilded chandeliers, and ostentatious facades — is giving way to a movement that prizes restraint, materiality, and the eloquence of negative space. Architectural minimalism, once confined to the pages of niche design journals, has become the defining aesthetic of the ultra-luxury segment across the Greater Toronto Area.",
 
-            "At the heart of this movement lies a simple but radical premise: the most powerful design statement is the one that doesn\u2019t need to announce itself. In Mississauga\u2019s Lorne Park and Port Credit neighborhoods, we\u2019re witnessing a new generation of custom builds where floor-to-ceiling glass walls dissolve the boundary between interior and exterior, where poured concrete meets warm white oak, and where every surface is selected not merely for beauty, but for how it interacts with natural light throughout each hour of the day.",
+            "At the heart of this movement lies a simple premise: the most enduring architectural statement is the one that avoids unnecessary ornamentation. In Toronto's prime residential enclaves, a new generation of custom residences features floor-to-ceiling glass walls integrating interior and exterior spaces, poured concrete paired with warm white oak, and materials selected for how they modulate natural light throughout the day.",
 
             "The drivers behind this shift are multifaceted. First, there is a generational transfer of wealth. Younger ultra-high-net-worth buyers — many of whom built their fortunes in technology and finance — bring an aesthetic sensibility informed by the clean interfaces and functional elegance of the digital world. They want their homes to feel like curated experiences, not museums.",
 
@@ -39,28 +39,28 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
     },
     {
-        slug: "mississauga-luxury-market-shift",
-        title: "Understanding the Mississauga Luxury Market Shift",
+        slug: "toronto-luxury-market-shift",
+        title: "Understanding the Toronto Luxury Market Shift",
         category: "Market Analysis",
         date: "Sep 12, 2026",
         dateISO: "2026-09-12",
         image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        excerpt: "A data-driven analysis of the forces reshaping Mississauga\u2019s luxury real estate market and what it means for buyers and sellers in 2026.",
+        excerpt: "A data-driven analysis of the forces reshaping Toronto's luxury real estate market and what it means for buyers and sellers in 2026.",
         readTime: "10 min read",
         content: [
-            "Mississauga\u2019s luxury real estate market in 2026 is experiencing a transformation that is as structural as it is cyclical. After two years of recalibration following the interest rate surge of 2023-2024, the $3M+ segment has entered a new equilibrium characterized by higher demand density, compressed inventory timelines, and a buyer profile that is more globally diversified than at any point in the city\u2019s history.",
+            "Toronto's luxury real estate market in 2026 has entered a new equilibrium characterized by higher demand density in core central neighborhoods, compressed inventory timelines, and a buyer profile that is more globally diversified than at any point in the city's history.",
 
-            "The numbers tell a compelling story. In the first three quarters of 2026, luxury home sales in Mississauga\u2019s core neighborhoods — Lorne Park, Mineola, Port Credit, and Erindale — increased by 23% year-over-year. The average sale price for properties above $3M climbed to $4.85M, representing a 12% appreciation from the market\u2019s 2024 trough. Days on market for properly priced luxury listings have contracted to an average of 14 days, down from 38 days just eighteen months ago.",
+            "The numbers reflect a structural shift. In the first three quarters of 2026, luxury home sales in Toronto's core neighborhoods — Yorkville, Rosedale, Forest Hill, and the Bridle Path — increased by 23% year-over-year. The average sale price for properties above $3M reached $4.85M. Days on market for properly priced luxury listings contracted to an average of 14 days, down from 38 days eighteen months ago.",
 
-            "Several macroeconomic forces are converging to create this acceleration. The Bank of Canada\u2019s measured rate reduction strategy through 2025-2026 has restored borrowing confidence among affluent buyers. Simultaneously, Toronto\u2019s constrained luxury inventory has created a spillover effect, with buyers who previously focused exclusively on Rosedale, Forest Hill, or the Bridle Path now discovering that Mississauga offers comparable estate-quality living with superior lot sizes and significantly lower price-per-square-foot metrics.",
+            "Several macroeconomic forces explain this acceleration. The Bank of Canada's measured rate reduction strategy through 2025-2026 restored borrowing confidence among high-net-worth buyers. Simultaneously, constrained single-family luxury inventory created intense competition for turnkey architectural properties.",
 
-            "International demand has also intensified. New immigration pathways and the global perception of Canada as a stable wealth-preservation jurisdiction have attracted a new cohort of buyers from the Middle East, Southeast Asia, and Western Europe. These buyers are sophisticated, well-capitalized, and frequently seek turnkey properties with modern architectural character — a profile that Mississauga\u2019s emerging custom-build market serves exceptionally well.",
+            "International demand has also stabilized. Established family offices and capital from Western Europe, Southeast Asia, and the Middle East continue to prioritize Canadian real estate for wealth preservation, with a distinct preference for custom modern construction.",
 
-            "The rental market in the ultra-luxury segment has emerged as an unexpected force multiplier. Corporate relocations and high-net-worth individuals testing a neighborhood before committing to purchase have created robust demand for luxury leases exceeding $10,000 per month. This has enhanced the investment case for luxury property acquisition, as owners can generate meaningful interim yield while benefiting from long-term capital appreciation.",
+            "The rental market in the ultra-luxury segment has also expanded. Executive relocations and investors seeking turnkey convenience have produced consistent demand for luxury leases exceeding $10,000 per month.",
 
-            "For sellers, the current environment represents a generational window of opportunity. The confluence of low inventory, strong demand, and favorable financing conditions creates leverage that has not existed since early 2022. However, capturing maximum value requires strategic positioning. The market is discerning — buyers at this level expect institutional-quality presentation, including architectural photography, cinematic video production, and data-backed pricing strategies.",
+            "For property owners considering a sale, low inventory and steady demand offer favorable pricing conditions. Capturing maximum value requires disciplined positioning: architectural photography, detailed floorplans, and clear comparative valuation data.",
 
-            "Looking ahead to 2027, we anticipate continued strength in the $3M-$7M band, with emerging pressure in the ultra-luxury $10M+ segment as several landmark new developments in Port Credit\u2019s waterfront district come to market. Buyers who act decisively in the current window will benefit from acquiring ahead of this anticipated supply-driven demand surge.",
+            "Looking ahead, demand in the $3M-$7M band remains well-supported, while off-market transactions continue to account for a substantial share of total volume.",
 
             "At Curated Estates, our advisory is grounded in this level of granular market intelligence. We don\u2019t rely on generalized market reports — we build proprietary analyses tailored to each client\u2019s specific acquisition or disposition strategy. In a market this dynamic, anything less is a disservice."
         ],
@@ -77,17 +77,17 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
             "There is something elemental about living on the water. The daily rhythm of changing light across Lake Ontario, the sound of waves against a private dock, the psychological spaciousness that comes from an unobstructed horizon — these are experiences that no penthouse, regardless of its altitude, can replicate. In 2026, the luxury market is recognizing this truth in the most tangible way possible: with capital.",
 
-            "After nearly a decade of urban densification narratives dominating the luxury real estate conversation, a powerful counter-trend has emerged. Affluent buyers across the Greater Toronto Area are actively seeking — and paying substantial premiums for — private lakefront estates. In Mississauga alone, waterfront property values in Port Credit and Lakeview have appreciated by 28% since the beginning of 2025, outpacing the broader luxury market by a factor of nearly 2.5.",
+            "After nearly a decade of urban densification narratives dominating the luxury real estate conversation, a powerful counter-trend has emerged. Affluent buyers across the Greater Toronto Area are actively seeking — and paying substantial premiums for — private lakefront estates. Waterfront property values along Lake Ontario's shoreline have appreciated by 28% since early 2025.",
 
-            "The catalyst for this renaissance is multifaceted. The post-pandemic recalibration of work-life priorities has proven to be durable, not transitory. Senior executives and business owners who discovered the virtues of working from home have permanently restructured their lives around space, nature, and privacy. A lakefront estate isn\u2019t a retreat from the world — it\u2019s a command center with a view.",
+            "The catalyst for this renaissance is durable. Senior executives and entrepreneurs have restructured their routines around privacy, space, and waterfront views.",
 
-            "Development patterns have also played a critical role. The City of Mississauga\u2019s ambitious Lakeview Village project and the ongoing revitalization of the Port Credit waterfront have transformed what were once industrial shorelines into some of the most coveted addresses in the GTA. New infrastructure — cycling trails, boutique retail, and transit connections — has made lakefront living not just desirable but practical.",
+            "Development patterns have also reinforced this shift. Ongoing shoreline revitalization projects across Toronto's waterfront have enhanced transit connections, boutique dining, and parkland access.",
 
-            "From an architectural standpoint, today\u2019s lakefront estates bear little resemblance to the traditional cottage-style properties that once characterized the shoreline. Modern waterfront homes are designed with a fierce commitment to framing the lake. Floor-to-ceiling glazing, cantilevered terraces, infinity-edge pools that visually merge with the horizon, and landscape architecture that creates a graduated transition from domestic space to natural shoreline — these are the hallmarks of the 2026 lakefront estate.",
+            "From an architectural standpoint, modern waterfront estates prioritize uninterrupted sightlines: floor-to-ceiling glazing, cantilevered terraces, and landscaping that blends seamlessly into the shoreline.",
 
-            "The buyer profile for these properties is distinctive. They tend to be multigenerational purchasers — families seeking a legacy property that will serve as the anchor for decades of gatherings. They value land as much as structure, understanding that the lot itself — its frontage, orientation, and privacy from neighboring properties — is where the true value resides.",
+            "Multigenerational families seek legacy properties that provide long-term space and enduring land value.",
 
-            "Inventory remains exceptionally tight. True lakefront lots in Mississauga\u2019s prime corridors are a finite resource, and the regulatory environment surrounding shoreline development has become more restrictive. For buyers with serious intent, the window to acquire a premier waterfront position narrows with each passing quarter.",
+            "Because true lakefront parcels remain scarce and shoreline environmental guidelines are strict, premier waterfront positions represent an irreplaceable asset class.",
 
             "Curated Estates maintains direct relationships with private sellers of lakefront estates who do not list publicly. For qualified clients, we can facilitate discrete introductions to off-market properties."
         ],

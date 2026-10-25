@@ -8,32 +8,32 @@ const VALUES = [
     {
         icon: ShieldCheck,
         title: "Integrity",
-        description: "Every interaction is built on radical honesty and transparency. No hidden agendas.",
+        description: "Clear representation terms, transparent fee structures, and zero undisclosed interests.",
     },
     {
         icon: Scale,
         title: "Precision",
-        description: "Data-driven decisions. Every valuation, negotiation, and strategy is surgically precise.",
+        description: "Comparative market valuations grounded in registered closed sales, land frontage, and square footage.",
     },
     {
         icon: Compass,
         title: "Discretion",
-        description: "Your business stays your business. Complete confidentiality through every transaction.",
+        description: "Private acquisitions executed under bilateral non-disclosure agreements for off-market inventory.",
     },
     {
         icon: Eye,
-        title: "Vision",
-        description: "We see opportunity where others see walls. Tomorrow\u2019s market, analyzed today.",
+        title: "Due Diligence",
+        description: "Independent structural, acoustic, and net-zero code audits conducted prior to closing.",
     },
     {
         icon: Heart,
-        title: "Empathy",
-        description: "We listen first. Understanding your story is the foundation of every recommendation.",
+        title: "Client Focus",
+        description: "Bespoke acquisition strategy tailored to your liquidity requirements and portfolio horizon.",
     },
     {
         icon: Zap,
         title: "Execution",
-        description: "Speed without sacrifice. We move fast because our preparation is second to none.",
+        description: "Direct coordination between legal counsel, private lenders, and municipal title registries.",
     },
 ];
 

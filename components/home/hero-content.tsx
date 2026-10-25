@@ -61,7 +61,7 @@ export function HeroContent() {
                     Luxury Living{" "}
                     <br className="hidden sm:block" />
                     <span className="font-light">in </span>
-                    <span className="italic text-[#C5A059]">Mississauga</span>.
+                    <span className="italic text-[#C5A059]">Toronto</span>.
                 </h1>
             </div>
 

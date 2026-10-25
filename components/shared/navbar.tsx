@@ -24,21 +24,29 @@ export function Navbar() {
     }, []);
 
     return (
-        <header ref={headerRef} className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
+        <header ref={headerRef} className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/80">
+            {/* Top Demo Context Banner */}
+            <div className="bg-[#121212] text-white/75 border-b border-white/10 py-1.5 px-4 text-center text-[11px] font-mono tracking-wider flex items-center justify-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C5A059] inline-block"></span>
+                <span>Portfolio Concept Demo &bull; Built by Zain Ahmed &bull; Next.js 16 App Router &bull; GSAP ScrollTrigger &bull; Fictional Listings</span>
+            </div>
+
             <Container className="flex h-20 items-center justify-between">
                 <div className="flex items-center gap-6">
-                    <Link href="/" className="font-serif text-2xl font-bold tracking-tighter">
-                        Curated <span className="text-primary italic font-normal">Estates</span>
+                    <Link href="/" className="font-serif text-2xl font-bold tracking-tighter flex items-center gap-3">
+                        <span>Curated <span className="text-primary italic font-normal">Estates</span></span>
+                        <span className="hidden sm:inline-flex text-[10px] font-mono tracking-widest uppercase px-2 py-0.5 rounded border border-primary/30 text-primary bg-primary/5">Demo</span>
                     </Link>
 
                     <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
                         <div
-                            className="relative"
+                            className="relative py-4"
                             onMouseEnter={() => setMegaMenuOpen(true)}
                             onMouseLeave={() => setMegaMenuOpen(false)}
                         >
                             <button
-                                className="flex items-center gap-1 hover:text-primary transition-colors py-8 -my-8"
+                                className="flex items-center gap-1 hover:text-primary transition-colors py-2"
+                                aria-expanded={megaMenuOpen}
                             >
                                 Properties <ChevronDown className="h-4 w-4" />
                             </button>
@@ -46,27 +54,29 @@ export function Navbar() {
                             <AnimatePresence>
                                 {megaMenuOpen && (
                                     <motion.div
-                                        initial={{ opacity: 0, y: 15 }}
+                                        initial={{ opacity: 0, y: 8 }}
                                         animate={{ opacity: 1, y: 0 }}
-                                        exit={{ opacity: 0, y: 15 }}
-                                        transition={{ duration: 0.3, ease: "easeOut" }}
-                                        className="absolute top-[calc(100%+20px)] left-0 w-[480px] rounded-xl border border-border/50 bg-background/95 backdrop-blur-xl p-6 shadow-2xl z-50"
+                                        exit={{ opacity: 0, y: 8 }}
+                                        transition={{ duration: 0.2, ease: "easeOut" }}
+                                        className="absolute top-full left-0 pt-2 w-[480px] z-50"
                                     >
-                                        <div className="grid grid-cols-2 gap-8">
-                                            <div className="space-y-4">
-                                                <h4 className="font-serif font-medium text-lg border-b border-border pb-2 text-foreground">Explore</h4>
-                                                <div className="flex flex-col gap-3">
-                                                    <Link href="/buyers" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Buy a Property</Link>
-                                                    <Link href="/buyers" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Rentals & Leases</Link>
-                                                    <Link href="/sellers" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Sell Your Property</Link>
+                                        <div className="rounded-xl border border-border/50 bg-background/95 backdrop-blur-xl p-6 shadow-2xl">
+                                            <div className="grid grid-cols-2 gap-8">
+                                                <div className="space-y-4">
+                                                    <h4 className="font-serif font-medium text-lg border-b border-border pb-2 text-foreground">Explore</h4>
+                                                    <div className="flex flex-col gap-3">
+                                                        <Link href="/buyers" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Buy a Property</Link>
+                                                        <Link href="/buyers" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Rentals & Leases</Link>
+                                                        <Link href="/sellers" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Sell Your Property</Link>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="space-y-4">
-                                                <h4 className="font-serif font-medium text-lg border-b border-border pb-2 text-foreground">Featured</h4>
-                                                <div className="flex flex-col gap-3">
-                                                    <Link href="/penthouses" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Penthouses</Link>
-                                                    <Link href="/estates" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Private Estates</Link>
-                                                    <Link href="/waterfront" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Waterfront</Link>
+                                                <div className="space-y-4">
+                                                    <h4 className="font-serif font-medium text-lg border-b border-border pb-2 text-foreground">Featured</h4>
+                                                    <div className="flex flex-col gap-3">
+                                                        <Link href="/penthouses" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Penthouses</Link>
+                                                        <Link href="/estates" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Private Estates</Link>
+                                                        <Link href="/waterfront" className="text-muted-foreground hover:text-primary hover:translate-x-1 transition-all">Waterfront</Link>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,7 +92,6 @@ export function Navbar() {
                 </div>
 
                 <div className="hidden md:flex items-center gap-4">
-                    <Button variant="ghost" className="hidden lg:inline-flex">Sign In</Button>
                     <Link href="/contact">
                         <Button variant="cta">Book a Consultation</Button>
                     </Link>
@@ -91,6 +100,7 @@ export function Navbar() {
                 <button
                     className="md:hidden p-2 text-foreground"
                     onClick={() => setIsOpen(!isOpen)}
+                    aria-label="Toggle navigation menu"
                 >
                     {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
                 </button>

@@ -6,7 +6,7 @@ const PENTHOUSES: Property[] = [
     {
         id: "ph-1",
         title: "The Pinnacle Sky Suite",
-        location: "Absolute World Towers, Mississauga",
+        location: "Yorkville, Downtown Toronto",
         price: "$3,850,000",
         image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 3,
@@ -17,7 +17,7 @@ const PENTHOUSES: Property[] = [
     {
         id: "ph-2",
         title: "The Observatory Residence",
-        location: "City Centre, Mississauga",
+        location: "Financial District, Downtown Toronto",
         price: "$2,990,000",
         image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 2,
@@ -28,7 +28,7 @@ const PENTHOUSES: Property[] = [
     {
         id: "ph-3",
         title: "Harbour View Penthouse",
-        location: "Port Credit, Mississauga",
+        location: "Harbourfront, Downtown Toronto",
         price: "$4,650,000",
         image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 4,
@@ -39,7 +39,7 @@ const PENTHOUSES: Property[] = [
     {
         id: "ph-4",
         title: "Cloudtop Loft",
-        location: "Square One District",
+        location: "King West, Downtown Toronto",
         price: "$1,950,000",
         image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         beds: 2,

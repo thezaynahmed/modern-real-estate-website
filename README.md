@@ -1,33 +1,48 @@
-# Curated Estates | Real Estate and Mortgage Advisory
+# Curated Estates
 
-A digital platform for high-end property acquisition, private architectural estates, and structured mortgage advisory across the Greater Toronto Area (GTA).
+Curated Estates is a modern luxury real estate and mortgage advisory platform built with Next.js 16 App Router, TypeScript, Tailwind CSS v4, and GSAP ScrollTrigger animations.
 
-## Core Practice
+Live Demo: [curatedestates.zainahmed.net](https://curatedestates.zainahmed.net/)
 
-Curated Estates combines luxury property acquisition with tailored mortgage strategy. Built for clients who require discretion, data-driven valuation, and private transaction support:
+> **Portfolio Project Notice**: Curated Estates is an independent frontend engineering showcase designed and developed by [Zain Ahmed](https://zainahmed.net). All property listings, addresses, financial figures, client dialogues, and metrics are conceptual representations created for technical demonstration.
 
-- Private Acquisition Network: Direct coordination with verified property owners, family offices, and off-market sellers.
-- Integrated Mortgage Advisory: Tailored financing and structured equity solutions aligned with estate acquisition.
-- Market Analysis Journal: In-depth reporting on GTA neighborhood pricing, architectural trends, and regulatory updates.
-- Focused Portfolios: Dedicated hubs for penthouses, private estates, and waterfront residences.
-- Cinematic Presentation: GSAP-accelerated transitions, Lenis smooth scrolling, and architectural photography.
+---
+
+## Overview
+
+The platform demonstrates how to build high-performance, editorial-grade web applications for luxury markets. It pairs architectural property presentation with an integrated mortgage advisory workflow, featuring smooth scrolling, interactive GSAP reveals, and responsive mobile layouts.
+
+### Key Capabilities
+
+- **Curated Property Hubs**: Dedicated collection pages for penthouses, private estates, and waterfront residences with filtering controls.
+- **GSAP ScrollTrigger Motion**: Parallax image hero banners, timeline line-drawing reveals, and staggered entry animations synchronized with smooth scrolling.
+- **Lenis Smooth Scroll Sync**: Virtual scrolling coordinated with GSAP's internal ticker to eliminate scroll stutter and trigger misalignment.
+- **Mortgage Architecture Tools**: Interactive client-side mortgage calculators with down payment, interest rate, and amortization modeling.
+- **Localized Market Journal**: Static site generated (SSG) articles covering GTA architectural trends and market liquidity shifts.
+- **WCAG-Compliant Form Intake**: Type-safe consultation booking and property valuation forms validated with React Hook Form and Zod schemas.
+
+---
 
 ## Technology Stack
 
-- Framework: [Next.js 16](https://nextjs.org/) (App Router)
-- Language: TypeScript 5
-- Styling: Tailwind CSS
-- Animation: GSAP 3 (ScrollTrigger) and Framer Motion
-- Typography: Playfair Display and Inter
-- Icons: Lucide React
-- Form Handling: React Hook Form and Zod
+| Layer | Technologies |
+| :--- | :--- |
+| **Framework** | Next.js 16.4 (App Router, Turbopack, React Server Components) |
+| **Core** | React 19.3, TypeScript 5.9 |
+| **Styling** | Tailwind CSS v4 (@tailwindcss/postcss), CSS Custom Properties |
+| **Motion & Scroll** | GSAP 3.15 (ScrollTrigger), Lenis 1.3, Framer Motion 12.43 |
+| **Primitives & Icons** | Radix UI primitives (@radix-ui/react-accordion, slider, slot), Lucide React |
+| **Form & Validation** | React Hook Form 7.91, Zod 4.6, @hookform/resolvers |
+| **Deployment** | Netlify with custom subdomain managed DNS |
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18.17 or higher
-- npm, yarn, or pnpm
+- Node.js 20.x or 22.x
+- npm 10+ (or pnpm / yarn)
 
 ### Installation
 
@@ -42,41 +57,67 @@ Curated Estates combines luxury property acquisition with tailored mortgage stra
    npm install
    ```
 
-3. Run the local development server:
+3. Run the development server:
    ```bash
    npm run dev
    ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 4. Build for production:
    ```bash
    npm run build
+   npm run start
    ```
 
-## Sitemap
+---
 
-The application includes the following routes:
-
-- Home (`/`): Hero showcase, curated property collection, and client dialogues.
-- About (`/about`): Advisory history, philosophy, and performance milestones.
-- Journal (`/blog`): Market intelligence and architectural commentary.
-- Buyers (`/buyers`): Acquisition portal with property filtering.
-- Sellers (`/sellers`): Property evaluation and private marketing intake.
-- Contact (`/contact`): Consultation booking and direct advisory communication.
-- Penthouses (`/penthouses`): Curated urban high-altitude residences.
-- Private Estates (`/estates`): Multi-acre architectural properties in GTA submarkets.
-- Waterfront (`/waterfront`): Lake Ontario and Lakeview shoreline properties.
-- Area Guides (`/guides/[area]`): Focused guides for Mississauga, Oakville, Toronto, and Muskoka.
-- Market FAQ (`/faq`): Transaction protocols, closing costs, and off-market procedures.
-
-## Project Structure
+## Application Structure
 
 ```txt
-app/               Next.js App Router pages and dynamic routes
-components/        UI components (home, about, shared, forms)
-lib/               Centralized datasets and helper utilities
-public/            High-resolution photography and static brand assets
+modern-real-estate-website/
+├── app/
+│   ├── layout.tsx              # Root layout with fonts, metadata, and Lenis sync
+│   ├── page.tsx                # Home page with hero, collection, and ticker
+│   ├── about/page.tsx          # Advisory story, pillars, values, and timeline
+│   ├── buyers/page.tsx         # Filterable acquisition catalog
+│   ├── sellers/page.tsx        # Valuation intake and advisory advantage
+│   ├── blog/                   # Market journal overview and dynamic [slug] routes
+│   ├── estates/page.tsx        # Private estate collection
+│   ├── penthouses/page.tsx     # Urban high-altitude residences
+│   ├── waterfront/page.tsx     # Lakefront property catalog
+│   ├── faq/page.tsx            # Transaction protocols and acquisition FAQ
+│   ├── contact/page.tsx        # Consultation booking and office details
+│   └── guides/[area]/page.tsx  # Dynamic localized market intelligence guides
+├── components/
+│   ├── home/                   # Hero section, search bar, slider, and ticker
+│   ├── about/                  # About hero, story grid, timeline, and values
+│   ├── listings/               # Property cards, image gallery, mortgage calculator
+│   ├── shared/                 # Navbar, footer, container, smooth scroll
+│   └── ui/                     # Accessible UI components (buttons, accordions, cards)
+├── lib/
+│   ├── blog-data.ts            # Centralized editorial content
+│   └── utils.ts                # Class merging and styling utilities
+└── public/
+    └── images/                 # Optimized static assets
 ```
 
 ---
 
-Copyright 2026 Curated Estates Real Estate and Mortgage Advisory. All rights reserved.
+## Route Map
+
+- `/` — Homepage featuring hero slider, responsive property search, curated grid, and client dialogue ticker.
+- `/about` — Executive profile, advisory philosophy, performance milestones, and principles.
+- `/buyers` — Interactive listings catalog with sidebar filters and instant search.
+- `/sellers` — Property valuation questionnaire and asset marketing intake.
+- `/penthouses` — High-rise luxury suites across Downtown Toronto.
+- `/estates` — Multi-acre private properties in Bridle Path, Rosedale, and Forest Hill.
+- `/waterfront` — Shoreline estates along Lake Ontario.
+- `/blog` — Market analysis journal and architectural intelligence reports.
+- `/faq` — Protocols on off-market acquisitions, down payments, and closing audits.
+- `/contact` — Secure consultation booking and digital correspondence channels.
+
+---
+
+## License & Attribution
+
+Designed and developed by [Zain Ahmed](https://zainahmed.net). Distributed under the MIT License for educational and portfolio demonstration purposes.

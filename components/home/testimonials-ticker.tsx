@@ -35,7 +35,7 @@ export function TestimonialsTicker() {
                 <div className="w-12 h-px bg-[#C5A059] mx-auto"></div>
             </div>
 
-            <div className="relative flex whitespace-nowrap overflow-hidden py-4 w-[200vw] group">
+            <div className="relative flex whitespace-nowrap overflow-hidden py-4 w-full max-w-full [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] group">
                 <motion.div
                     className="flex gap-8 px-4"
                     animate={{ x: ["0%", "-50%"] }}
